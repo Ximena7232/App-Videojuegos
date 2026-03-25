@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #0d0d0d;
+  background: #0b0f2a;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -22,22 +22,22 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: #1a1a1a;
+  background: #1a1f3b;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 12px 30px rgba(0, 255, 102, 0.25);
+  box-shadow: 0 12px 30px rgba(0, 200, 255, 0.4);
 }
 
 .banner {
   width: 100%;
   height: 200px;
   object-fit: cover;
-  border-bottom: 5px solid #00ff66;
+  border-bottom: 5px solid #00c8ff;
 }
 
 .header {
-  background: linear-gradient(135deg, #000000, #1a1a1a);
-  color: #00ff66;
+  background: linear-gradient(135deg, #0b0f2a, #1a1f3b);
+  color: #00c8ff;
   text-align: center;
   padding: 20px;
 }
@@ -52,7 +52,7 @@ body {
 }
 
 .perfil {
-  background: #1a1a1a;
+  background: #1a1f3b;
   text-align: center;
   padding: 15px;
   color: #e0e0e0;
@@ -60,7 +60,7 @@ body {
 
 .perfil h2 {
   font-size: 1.2rem;
-  color: #00ff66;
+  color: #00c8ff;
 }
 
 .menu {
@@ -75,7 +75,7 @@ body {
   padding: 12px;
   border: none;
   border-radius: 12px;
-  background: #00ff66;
+  background: #00c8ff;
   color: #000;
   font-weight: bold;
   font-size: 1rem;
@@ -84,7 +84,7 @@ body {
 }
 
 .menu button:hover {
-  background: #00cc55;
+  background: #0099cc;
 }
 
 main {
@@ -102,20 +102,20 @@ main {
 
 .seccion h2 {
   margin-bottom: 12px;
-  color: #00ff66;
+  color: #00c8ff;
 }
 
 .card {
-  background: #0d0d0d;
-  border-left: 6px solid #00ff66;
+  background: #0b0f2a;
+  border-left: 6px solid #00c8ff;
   border-radius: 14px;
   padding: 15px;
   margin-bottom: 12px;
-  box-shadow: 0 4px 10px rgba(0,255,102,0.4);
+  box-shadow: 0 4px 10px rgba(0,200,255,0.4);
 }
 
 .card h3 {
-  color: #00ff66;
+  color: #00c8ff;
   margin-bottom: 6px;
 }
 
@@ -132,7 +132,7 @@ main {
   display: flex;
   justify-content: space-around;
   background: #000000;
-  color: #00ff66;
+  color: #00c8ff;
   padding: 15px;
   font-size: 1.6rem;
 }
