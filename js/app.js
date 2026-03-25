@@ -1,5 +1,4 @@
-.
-const botonesINICIO = document.querySelectorAll(".menu button");
+const botonesMenu = document.querySelectorAll(".menu button");
 const secciones = document.querySelectorAll(".seccion");
 
 botonesMenu.forEach((btn, index) => {
