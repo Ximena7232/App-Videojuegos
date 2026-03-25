@@ -1,21 +1,85 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Zona Gamer</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App VIDEOJUEGOS
+  </title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>🎮 Zona Gamer 🎮</h1>
+  <div class="app">
+  
+    <header class="header">
+      <img src="img/juego.png" alt="Banner Programación" class="banner">
+      <h1>Bienvenido a la App de VIDEOJUEGOS
+      </h1>
+      <p>JUEGOS.</p>
+    </header>
 
-    <div class="menu">
-        <button id="btnJugar">Jugar</button>
-        <button id="btnOpciones">Opciones</button>
-        <button id="btnSalir">Salir</button>
-    </div>
+ 
+    <section class="perfil">
+      <h2>👨‍💻 Alumno</h2>
+      <p>XIMENNA</p>
+    </section>
 
-    <div id="pantalla">Presiona un botón para comenzar...</div>
+    <nav class="menu">
+      <button>📘 INICIO</button>
+      <button>💻 JUEGOS</button>
+      <button>🚀 CONTACTO</button>
+    </nav>
 
-    <script src="app.js"></script>
+ 
+    <main>
+    
+      <section class="JUEGOS">
+        <h2>Fortnite
+        </h2>
+        <div class="card">
+          <h3>Juego de batalla en línea muy popular</h3>
+          <p>
+            Fortnite
+          </p>
+          <button id="btnInfo">Mostrar más información</button>
+          <div id="extraInfo" class="hidden">
+            <p>
+              SON JUEGOS EN LINEA QUE SE PUEDEN JUGAR MANUAL
+            </p>
+          </div>
+        </div>
+      </section>
+
+    
+      <section class="seccion">
+        <h2>JUEGOS</h2>
+        <div class="card">
+          <h3>Ejemplos</h3>
+          <ul>
+            Fortnite
+              Minecraft
+          </ul>
+        </div>
+      </section>
+
+    
+      <section class="seccion">
+        <h2>CONTACTO</h2>
+        <div class="card">
+          <p>
+          XIMENA, 7224064379 <br>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    
+    <footer class="footer">
+      <span>🏠</span>
+      <span>📚</span>
+      <span>⚙️</span>
+    </footer>
+  </div>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
