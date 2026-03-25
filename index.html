@@ -2,40 +2,20 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zona Gamer</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>🎮 Zona Gamer 🎮</h1>
 
-<header>
-    <h1>🎮 Zona Gamer</h1>
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Juegos</a>
-        <a href="#">Contacto</a>
-    </nav>
-</header>
-
-<section>
-    <h2>Juegos populares</h2>
-
-    <div class="card">
-        <img src="img/juego1.jpg" alt="Juego 1">
-        <h3>Fortnite</h3>
-        <p>Juego de batalla en línea muy popular.</p>
-        <button onclick="mensaje()">Ver más</button>
+    <div class="menu">
+        <button id="btnJugar">Jugar</button>
+        <button id="btnOpciones">Opciones</button>
+        <button id="btnSalir">Salir</button>
     </div>
 
-    <div class="card">
-        <img src="img/juego2.jpg" alt="Juego 2">
-        <h3>Minecraft</h3>
-        <p>Juego de construcción y aventura.</p>
-        <button onclick="mensaje()">Ver más</button>
-    </div>
+    <div id="pantalla">Presiona un botón para comenzar...</div>
 
-</section>
-
-<script src="js/app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
