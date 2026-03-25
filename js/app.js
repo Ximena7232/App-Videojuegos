@@ -1,14 +1,18 @@
-const pantalla = document.getElementById("pantalla");
+const botonesMenu = document.querySelectorAll(".menu button");
+const secciones = document.querySelectorAll(".seccion");
 
-document.getElementById("btnJugar").addEventListener("click", () => {
-    pantalla.textContent = "¡El juego comienza! 🚀";
+botonesMenu.forEach((btn, index) => {
+  btn.addEventListener("click", () => {
+   
+    secciones.forEach(sec => sec.classList.remove("activa"));
+   
+    secciones[index].classList.add("activa");
+  });
 });
 
-document.getElementById("btnOpciones").addEventListener("click", () => {
-    pantalla.textContent = "Menú de opciones abierto ⚙️";
-});
 
-document.getElementById("btnSalir").addEventListener("click", () => {
-    pantalla.textContent = "Has salido del juego 👋";
+document.getElementById("btnInfo").addEventListener("click", () => {
+  const extraInfo = document.getElementById("extraInfo");
+  extraInfo.classList.toggle("hidden");
 });
 
