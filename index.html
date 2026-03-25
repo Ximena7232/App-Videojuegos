@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Fortnite</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <img src="img/fortnite_banner.jpg" alt="Banner Fortnite" class="banner">
+      <h1>Bienvenido a la App de Fortnite</h1>
+      <p>Explora modos de juego, armas y curiosidades.</p>
+    </header>
+
+    <section class="perfil">
+      <h2>🎮 Jugador</h2>
+      <p>Kevin</p>
+    </section>
+
+    <nav class="menu">
+      <button>🕹️ Modos</button>
+      <button>🔫 Armas</button>
+      <button>🌍 Curiosidades</button>
+    </nav>
+
+    <main>
+      <section class="seccion activa">
+        <h2>Modos de Juego</h2>
+        <div class="card">
+          <h3>Battle Royale</h3>
+          <p>El clásico modo donde 100 jugadores compiten para ser el último en pie.</p>
+          <button id="btnInfo">Mostrar más información</button>
+          <div id="extraInfo" class="hidden">
+            <p>También existen modos creativos y eventos especiales que cambian la dinámica del juego.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="seccion">
+        <h2>Armas Populares</h2>
+        <div class="card">
+          <h3>Ejemplos</h3>
+          <ul>
+            <li><strong>Escopeta táctica:</strong> Combate cercano.</li>
+            <li><strong>Rifle de asalto:</strong> Versátil en media distancia.</li>
+            <li><strong>Francotirador:</strong> Precisión a larga distancia.</li>
+            <li><strong>Subfusil:</strong> Rápido y efectivo en corto alcance.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="seccion">
+        <h2>Curiosidades de Fortnite</h2>
+        <div class="card">
+          <h3>Datos</h3>
+          <p>
+            - Ha tenido colaboraciones con Marvel, DC y artistas famosos.<br>
+            - Sus eventos en vivo han reunido millones de jugadores.<br>
+            - Es uno de los juegos más influyentes de la última década.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>🏠</span>
+      <span>🎮</span>
+      <span>⚙️</span>
+    </footer>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
